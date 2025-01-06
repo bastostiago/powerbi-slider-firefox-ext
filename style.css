@@ -49,6 +49,22 @@ main {
   font-size: small;
 }
 
+#compositionMessage {
+  text-decoration: none;  
+  display: flex;
+  align-items: center;
+  font-size: x-small;
+  position: absolute;
+  bottom: 45px;
+  background-color: #f8b500;  
+  padding: 1.0em;
+}
+
+#compositionMessage a {
+  text-decoration: none;  
+  color: rgb(83, 83, 83);  
+}
+
 footer {
   width: 100%;
   text-align: right;
